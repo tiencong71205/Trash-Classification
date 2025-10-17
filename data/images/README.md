@@ -20,8 +20,8 @@ Bộ dữ liệu được sử dụng trong dự án được công bố trên *
 🔗 [Vietnam Domestic Solid Waste Dataset](https://www.kaggle.com/datasets/thanhngnguyn/vietnam-domestic-solid-waste)
 
 Dữ liệu được thu thập từ các loại rác thải sinh hoạt phổ biến tại Việt Nam và được chia thành 3 nhãn chính:
-- `paper`
-- `plastic`
-- `glass`
+- `paper` : 4989 ảnh
+- `plastic` : 4999 ảnh
+- `glass` : 5405 ảnh
 
 ## 📂 Cấu trúc thư mục
