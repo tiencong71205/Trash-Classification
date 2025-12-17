@@ -1,15 +1,17 @@
-##  Quá trình đánh nhãn dữ liệu
+## Data Labeling Process
 
-Tập dữ liệu trong dự án **Trash Classification** được **đánh nhãn thủ công bằng LabelImg** ở **định dạng YOLO**.  
-Mỗi ảnh có tệp nhãn `.txt` tương ứng, trong đó mỗi dòng mô tả một đối tượng theo cấu trúc:
+The dataset used in the Trash Classification project was manually labeled using **LabelImg** in YOLO format.
+Each image has a corresponding `.txt` label file, where each line describes one object with the following structure:
 
 <class_id> <x_center> <y_center> <width> <height>
 
-Trong đó các giá trị tọa độ được **chuẩn hóa (normalized)** theo kích thước ảnh.  
-Bộ dữ liệu gồm **3 nhãn chính**:
 
--  `paper` : 4989 nhãn
--  `plastic` : 4999 nhãn
--  `glass` : 5405 nhãn
+In which the coordinate values are normalized according to the image size.
 
-Tập nhãn này được sử dụng cho các mô hình huấn luyện theo chuẩn **YOLOv5 / YOLOv8**.
+The dataset consists of **3 main labels**:
+
+-  `paper` : 4989 labels
+-  `plastic` : 4999 labels
+-  `glass` : 5405 labels
+
+This set of labels is used for training models following the **YOLOv5 / YOLOv8** standard.
