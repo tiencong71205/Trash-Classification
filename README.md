@@ -1,27 +1,27 @@
-#  Trash Classification
+Trash Classification
 
-##  Giới thiệu
-Dự án **Trash Classification** nhằm xây dựng hệ thống **phân loại rác thải sinh hoạt** dựa trên hình ảnh.  
-Bộ dữ liệu bao gồm **3 loại rác chính**:
--  **Paper** — Giấy, báo, bìa cứng,...
--  **Plastic** — Chai nhựa, túi nilon, hộp nhựa,...
--  **Glass** — Chai thủy tinh, ly, lọ,...
+## Introduction
 
-Mục tiêu của dự án là **hỗ trợ việc phân loại rác tự động**, góp phần nâng cao hiệu quả tái chế và bảo vệ môi trường.  
-Dự án có thể ứng dụng trong:
-- Hệ thống **phân loại rác bằng camera**
-- **Robot thu gom, xử lý rác thông minh**
-- **Nghiên cứu và giảng dạy** trong lĩnh vực AI môi trường
+The **Trash Classification** project aims to build a system for household waste **classification** based on images.
+The dataset includes **3 main types of waste**:
+- Paper — Paper, newspapers, cardboard, ...
+- Plastic — Plastic bottles, plastic bags, plastic containers, ...
+- Glass — Glass bottles, cups, jars, ...
+
+The goal of the project is to support automatic waste classification, contributing to improved recycling efficiency and environmental protection.
+The project can be applied to:
+- Camera-based waste classification systems
+- Smart waste collection and processing robots
+- Research and teaching in environmental AI
 
 ---
 
-##  Nguồn dữ liệu
-Bộ dữ liệu được sử dụng trong dự án được công bố trên **Kaggle**:  
+## Data Source
+
+The dataset used in this project is published on Kaggle:
 🔗 [Vietnam Domestic Solid Waste Dataset](https://www.kaggle.com/datasets/thanhngnguyn/vietnam-domestic-solid-waste)
 
-Dữ liệu được thu thập từ các loại rác thải sinh hoạt phổ biến tại Việt Nam và được chia thành 3 nhãn chính:
+The data is collected from common household waste types in Vietnam and is divided into 3 main labels:
 - `paper`
 - `plastic`
 - `glass`
-
-## 📂 Cấu trúc thư mục
